@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Bitter', serif;
+    background-color: rgb(243, 126, 184);
 }
 .navbar{
     display: flex;
@@ -26,16 +27,16 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: rgb(18, 204, 18);
+    color:rgba(32, 32, 32, 0.863);
 }
 p{
-    color:#555;
+    color:#554e45;
 }
 .container{
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right:25px;
 }
 .row{
     display: flex;
@@ -59,25 +60,28 @@ p{
 .btn{
     display: inline-block;
     background:#ff532b;
-    color: #fff;
-    padding: 8px 30px;
+    color: #ffff55;
+    padding: 6px 20px;
     margin: 30px 0;
-    border-radius: 30px;
+    border-radius: 60px;
     transition: background 0.5s;
 } 
  .btn :hover{
-     background: #563435;
-
+     background: #a0ee10;
  }
 .header{
-    background: radial-gradient(#fff, #ffd6d6);
+    background-image:url("images/hd\ webpage.jpg");
+          background-color: #cccccccc;
+          background-size:cover;
+          background-repeat: no-re
 }
 .header row{
           margin-top: 70px;
+         peat;
 }
 .categories{
-    margin: 70px 0;
-}
+    margin: 60px 0;
+ }
 .col-3{
     flex-basis: 30%;
     min-width: 250px;
@@ -105,7 +109,7 @@ p{
 }
 .title{
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 0 auto 90px;
     position: relative;
     line-height: 60px;
     color: #555;
@@ -113,7 +117,7 @@ p{
 .title ::after{
     content:'';
     background: #ff523b;
-    width: 80px;
+    width: 90px;
     height: 5px;
     border-radius: 5px;
     position: absolute;
@@ -122,7 +126,7 @@ p{
     transform: translateX(-50%);
 }
 .h4{
-    color: #555;
+    color: rgb(85, 85, 85);
     font-weight: normal;
 }
 .col-4 p{
@@ -165,37 +169,43 @@ p{
 }
 .h4{
     color: #555;
-    font-weight: normal;
+    font-weight:bold:initial;
 }
 .col-5 p{
     font-size: 14px;  
 }
 .rating{
-    columns: #ff524f; 
+    columns: #0d0d0e; 
 }
 .col-5:hover{
     transform: translateY(-5px)
 }
+.specialoffer{
+    background: radial-gradient(#fff, #7e64f0);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
 /*-----------footer----------*/
 .footer{
-    background: #000;
-    color: #8a8a8a;
-    font-size: 14px;
+    background: black;
+    color: rebeccapurple;
+    font-size: 15px;
     padding: 60px 0 20px;
 }
 .footer p{
-    color: #8a8a8a;
+    color: #fa1212;
 }
 .footer h3{
-    color:#ff523b;
+    columns: rgb(23, 0, 128);
     margin-bottom: 20px;
 }
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
-    min-width: 250px;
+    min-width: 300px;
     margin-bottom: 20px;
 }
 .footer-col-2{
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 .footer-col-2{
     flex: 1;
@@ -206,7 +216,7 @@ p{
     margin-bottom: 20px;
 }
 .footer-col-3, .footer-col-4{
-    flex-basis: 12%;
+    flex-basis: 15%;
     text-align: center;
 }
 ul{
@@ -218,10 +228,38 @@ list-style-type: none;
 }
 .footer hr{
     border: none;
-    background: #b5b5b7;
+    background: #242222;
     height: 1px;
     margin: 20px;
 }
 .Copyright{
     text-align: center;
 }
+.categories {
+    box-shadow: 0 4px 8px #ff523b;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: blue;
+    font-size: 22px;
+  }
+  
+  .categories button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: green;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .categories button:hover {
+    opacity: 0.7;
+  }
