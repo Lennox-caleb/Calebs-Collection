@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./admin.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9ad9a54963.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/font-awesome.js" crossorigin="anonymous"></script>
+
+    <title>Caleb's Collection Administration</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side Navigation bar-->
+      <aside class="sidebar" id="sidebar">
+        <a href="">Calebs Collection</a>
+        <hr />
+        <ul class="list-unstyled">
+          <li>
+            <a href=""><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-pizza-slice"></i> Products</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-user-friends"></i> Users</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-comments"></i> Comments</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Content-Wrapper -->
+      <main class="content-wrapper" id="main-content">
+        <!----Top bar---->
+        <nav id="navbar" class="topbar">
+          <button
+            id="sidebarToggleTop"
+            onclick="sidebarToggler();"
+            class="mr-auto"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="dropdown ml-auto">
+            <a href="">Account</a>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-user"></i> Profile</a>
+                </li>
+                <br />
+                <li>
+                  <a href=""><i class="fas fa-cogs"></i> Change Password</a>
+                </li>
+                <li><hr /></li>
+                <li>
+                  <a href=""><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Content area -->
+        <article class="content">
+          <h1>Products</h1>
+          <div class="underline"></div>
+          <br />
+          <button class="ml-auto btn">
+            <i class="fas fa-plus"></i> ADD TO CART
+          </button>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Products Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Apple Laptops Corei7</td>
+                  <td>$780.00</td>
+                  <td>PHONES AND LAPTOPS</td>
+                  <td>
+                    Apple MacBook Air 13 Laptop Early 2015 dual core Core i7 5650U 8GB 512GB 13.3 inch LCD Lit Screen EX UK (MJVE2LL-A BTO)2 x USB 3.0, 1 x HDMI<br>
+                    802.11ac Wi-Fi, Bluetooth 4.0, “Thunderbolt” 2 port, Backlit Keyboard
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Samsung Galaxy  S20</td>
+                  <td>$150.70</td>
+                  <td>PHONES AND LAPTOPS</td>
+                  <td>
+                    Samsung Galaxy S20 Ultra smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.73 GHz, Dual core, M5 Mongoose + 2.5 GHz, Dual core, Cortex A76 + 2 GHz, Quad core, Cortex A55) processor. It runs on the Samsung Exynos 9 Octa 990 Chipset. It has 12 GB RAM and 128 GB internal storage
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Wrist Band</td>
+                  <td>$20</td>
+                  <td>SPECIAL OFFER</td>
+                  <td>
+                    Arms & Wrist Bands, Wearable Tech
+                Fitbit Charge 4 Advanced Fitness Tracker
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Revo-X Air Mix Mesh Black</td>
+                  <td>$20.60</td>
+                  <td>SHOES</td>
+                  <td>
+                    Fashion Men's Leather Loafer Shoes/brown              
+                    Color: Black<br>
+                    Material:Leather<br>
+                    Style: Loafers<br>
+                    durable
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        
+        <!------Footer----- -->
+        <footer class="footer">
+          <div class="align-self-center">
+            <p class="text-center">All right Reserved. &copy;2020 Calebs Collection</p>
+          </div>
+        </footer>
+      </main></div>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
